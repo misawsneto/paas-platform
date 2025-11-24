@@ -4,6 +4,10 @@ A GitOps-first, Kubernetes-native Platform-as-a-Service (PaaS) specialized for L
 
 ![Liferay Cockpit Home](https://raw.githubusercontent.com/misawsneto/paas-platform/main/home.jpg)
 
+## Prototype
+
+The UI prototype for this project can be found here: https://polish-small-67185439.figma.site/
+
 ## Overview
 
 LC2 treats Git as the source of truth and uses Argo CD to reconcile desired state into Kubernetes. The Cockpit management interface (Java + Next.js) enables project Owners and Members to operate their environments without requiring direct kubectl access.
@@ -24,10 +28,6 @@ LC2 treats Git as the source of truth and uses Argo CD to reconcile desired stat
 - **Observability** - Deep-links to managed Grafana for metrics and alerts
 - **Logs** - CLI-first approach for tailing/querying logs via CloudWatch/Log Analytics/Loki
 - **Backup & Restore** - Externalized via database PITR, versioned object storage, and search snapshots
-
-## UI Design
-
-The UI from this project can be found here: https://polish-small-67185439.figma.site/
 
 ## Philosophy
 
