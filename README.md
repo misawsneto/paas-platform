@@ -2,6 +2,8 @@
 
 A GitOps-first, Kubernetes-native Platform-as-a-Service (PaaS) specialized for Liferay DXP environments. This project, also known as **Liferay Cloud 2.0 (LC2)** or **Liferay Cockpit**, provides a multi-tenant platform that enforces strict isolation and standardizes DevOps workflows across local and cloud Kubernetes deployments.
 
+![Liferay Cockpit Home](home.jpg)
+
 ## Overview
 
 LC2 treats Git as the source of truth and uses Argo CD to reconcile desired state into Kubernetes. The Cockpit management interface (Java + Next.js) enables project Owners and Members to operate their environments without requiring direct kubectl access.
