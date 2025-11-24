@@ -2,7 +2,7 @@
 
 A GitOps-first, Kubernetes-native Platform-as-a-Service (PaaS) specialized for Liferay DXP environments. This project, also known as **Liferay Cloud 2.0 (LC2)** or **Liferay Cockpit**, provides a multi-tenant platform that enforces strict isolation and standardizes DevOps workflows across local and cloud Kubernetes deployments.
 
-![Liferay Cockpit Home](home.jpg)
+![Liferay Cockpit Home](https://raw.githubusercontent.com/misawsneto/paas-platform/main/home.jpg)
 
 ## Overview
 
